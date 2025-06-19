@@ -1,14 +1,25 @@
-import { createStore } from 'vuex'
+import { createStore } from 'vuex'; 
 
-export default createStore({
+
+export default createStore({ 
   state: {
-  },
-  getters: {
+    currentPalette: [],
+    savedPalettes: [],
   },
   mutations: {
+    setPalette(state, newPalette) {
+      state.currentPalette = newPalette;
+    },
+    addSavedPalette(state, palette) {
+      state.savedPalettes.push(palette);
+    },
   },
   actions: {
+    saveCurrentPalette({ commit, state }) {
+      if (state.currentPalette.length > 0) {
+        commit('addSavedPalette', [...state.currentPalette]);
+      }
+    },
   },
-  modules: {
-  }
-})
+  modules: {},
+});
