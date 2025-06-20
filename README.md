@@ -104,10 +104,4 @@ color-palette-gen/
 └── README.md                  # Este arquivo
 ```
 
-## 🤝 Contribuição
-
-Contribuições são bem-vindas\! Se você tiver ideias para novas funcionalidades, melhorias no design ou correções de bugs, sinta-se à vontade para:
-
-1.  Abrir uma [Issue](https://www.google.com/search?q=https://github.com/seu-usuario/color-palette-gen/issues) para discutir a mudança proposta.
-2.  Criar um [Pull Request](https://www.google.com/search?q=https://github.com/seu-usuario/color-palette-gen/pulls) com suas alterações.
 
